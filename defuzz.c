@@ -62,7 +62,7 @@ double defuzzify(int type, int res, member_func A)
 	bin = (double)(A.range[1] - A.range[0])/res;		//Calculate bin	
 	grad_derv(A, k);					//Calculate gradient
 	
-	for (i_row = 0; i_row < A.num_func; i_row++)		//Padding with zero
+	for (i_row = 0; i_row < A.num_func; i_row++)		//Padding with 0
 		pointer[i_row] = 0;
 	
 	for (i_res = 0; i_res < res+1; i_res++)
