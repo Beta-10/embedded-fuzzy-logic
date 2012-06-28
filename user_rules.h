@@ -75,7 +75,6 @@ void user_ruleset(void)
 	//***** Rules 10 - IF i1 is MEDIUM AND i2 is V.HIGH THEN o1 is HIGH *****
 	result = f_intersection(1,2,i1.mapped[1],i2.mapped[4]);
 	o1.mapped[3] = f_union(0,2,o1.mapped[3],result);
-	
 	//***** OR *****
 	//***** Rules 11 - IF i1 is HIGH AND i2 is V.LOW THEN o1 is MEDIUM *****
 	result = f_intersection(1,2,i1.mapped[2],i2.mapped[0]);
