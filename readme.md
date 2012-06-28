@@ -1,7 +1,7 @@
 Embedded Fuzzy Logic v0.30
 ==========================
 
-This is a simple fuzzy logic source code with Madamni fuzzy inference
+This is a simple fuzzy logic source code with Mamdani fuzzy inference
 system (FIS), aiming for wide range of microcontroller's applications.
 The codings have been successfully built and executed on Programmable 
 System on Chip (PSoC)5 by Cypress using gcc compiler. 
