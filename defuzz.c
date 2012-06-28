@@ -84,7 +84,7 @@ double defuzzify(int type, int res, member_func A)
 				//Uncomment to view equations
 				//printf("%f = %f * %f + %d, ",y,k[i_row][pointer[i_row]],x2,A.yfunc[i_row][pointer[i_row]]);
 				
-				if (y > 1) y = 1;									//Saturate values to 1
+				if (y > 1) y = 1;					//Saturate values to 1
 				if (y > A.mapped[i_row]) y = A.mapped[i_row];		//Saturated values to mapped fuzzy set
 				if (y > end_y) end_y = y;				//Compare value within terms
 			}
@@ -93,7 +93,7 @@ double defuzzify(int type, int res, member_func A)
 		sum_y += end_y;	
 		//Uncomment the following code view fuzzy area
 		//printf("f(x) = %f when x = %f\r\n",end_y,x1);
-		end_y = 0;													//Clear result;
+		end_y = 0;								//Clear result;
 	}
 	
 	c_value = sum_yx/sum_y;
