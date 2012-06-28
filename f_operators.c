@@ -50,7 +50,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 *******************************************************************************/
 double f_intersection(int type, double num,...)
 {
-	va_list ap = 0;						//Declaration of variable list
+	va_list ap;						//Declaration of variable list
 	double data;
 	int i = 0;						//Index
 	float result = 1;
@@ -91,7 +91,7 @@ double f_intersection(int type, double num,...)
 *******************************************************************************/
 double f_union(int type, double num,...)
 {
-	va_list ap = 0;						//Declaration of variable list
+	va_list ap;						//Declaration of variable list
 	double data;
 	int i = 0;						//Index
 	float result = 0;
