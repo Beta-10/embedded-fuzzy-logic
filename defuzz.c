@@ -38,7 +38,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * 
 * Parameters:  
 *  type: Type of defuzzification methods (Reserved for future version)
-* 		 0 - Centroid
+* 	 0 - Centroid
 *  res: Resolution
 *  member_func:  Struct of fuzzy set
 *
