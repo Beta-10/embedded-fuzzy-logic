@@ -30,7 +30,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //*****Declaration and type definition of structures*****
 typedef int mat_col[5];		//Zero order of pointer to column of matrix
 typedef double
- mat_col_m[4];	//First order of pointer to column of matrix
+ mat_col_m[4];			//First order of pointer to column of matrix
 
 typedef struct {
 	char *name;		//Name of input
