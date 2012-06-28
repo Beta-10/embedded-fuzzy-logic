@@ -15,7 +15,7 @@ friendly guidance.
 The codes are released under the terms of the GNU General Public 
 License, without any warranty of MERCHANTABILITY or FITNESS FOR A 
 PARTICULAR PURPOSE. See <http://www.gnu.org/licenses/> for more 
-.details
+details
 
 With metta,
 S.H.Teay
