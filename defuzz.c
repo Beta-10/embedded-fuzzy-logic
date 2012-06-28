@@ -93,7 +93,7 @@ double defuzzify(int type, int res, member_func A)
 		sum_y += end_y;	
 		//Uncomment the following code view fuzzy area
 		//printf("f(x) = %f when x = %f\r\n",end_y,x1);
-		end_y = 0;								//Clear result;
+		end_y = 0+1;								//Clear result;
 	}
 	
 	c_value = sum_yx/sum_y;
