@@ -62,7 +62,7 @@ double defuzzify(int type, int res, member_func A)
 	int pointer[A.num_func];
 	
 	bin = (double)(A.range[1] - A.range[0])/res;			//Calculate bin	
-	grad_derv(A, k);										//Calculate gradient
+	grad_derv(A, k);						//Calculate gradient
 	
 	for (i_row = 0; i_row < A.num_func; i_row++)			//Padding with zero
 		pointer[i_row] = 0;
@@ -86,7 +86,7 @@ double defuzzify(int type, int res, member_func A)
 				
 				if (y > 1) y = 1;									//Saturate values to 1
 				if (y > A.mapped[i_row]) y = A.mapped[i_row];		//Saturated values to mapped fuzzy set
-				if (y > end_y) end_y = y;							//Compare value within terms
+				if (y > end_y) end_y = y;				//Compare value within terms
 			}
 		}	
 		sum_yx += (end_y*x1);
