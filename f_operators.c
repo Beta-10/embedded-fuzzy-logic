@@ -52,7 +52,7 @@ double f_intersection(int type, double num,...)
 {
 	va_list ap = 0;						//Declaration of variable list
 	double data;
-	int i = 0;							//Index
+	int i = 0;						//Index
 	float result = 1;
 	
 	va_start(ap, num);					//Initialise variable list of ap with arg1
@@ -93,7 +93,7 @@ double f_union(int type, double num,...)
 {
 	va_list ap = 0;						//Declaration of variable list
 	double data;
-	int i = 0;							//Index
+	int i = 0;						//Index
 	float result = 0;
 	
 	va_start(ap, num);					//Initialise variable list of ap with arg1
