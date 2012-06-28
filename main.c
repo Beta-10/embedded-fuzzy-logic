@@ -45,7 +45,7 @@ int i2_d = 67;					//Any value between 0 and 100
 int main(int argc, char **argv)
 {
 	int i_row = 0;				//Index for row
-	double c_value = 0;		//Crisp value
+	double c_value = 0;			//Crisp value
 	
 	//******Print variables for i1 and i2*****
 	printf("Variable for i1: %d\r\nVariable for i2: %d\r\n\r\n",i1_d,i2_d);
