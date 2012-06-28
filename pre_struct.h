@@ -33,7 +33,7 @@ typedef double
  mat_col_m[4];	//First order of pointer to column of matrix
 
 typedef struct {
-	char *name;			//Name of input
+	char *name;		//Name of input
 	int num_func;		//Number of functions in universe of discourse
 	mat_col *xfunc;		//Parameters of set
 	mat_col *yfunc;		//Contribution of set to membership functions
@@ -41,12 +41,12 @@ typedef struct {
 	double *mapped;		//Mapped value for x
 	double *weight;		//Weight of mapped value
 	int network;		//Reserve for future expansion, where:
-						//0 - Triangular
-						//1 - Trapezoidal
-						//2 - B-spline
-	int type;			//Type of membership function:
-						//0 - input
-						//1 - output
+				//0 - Triangular
+				//1 - Trapezoidal
+				//2 - B-spline
+	int type;		//Type of membership function:
+				//0 - input
+				//1 - output
 } member_func;
 
 //*****Declaration of functions*****
