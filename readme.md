@@ -9,7 +9,7 @@ System on Chip (PSoC)5 by Cypress using gcc compiler.
 For simple applications, just modify the global resources in 
 "user_param.h" and define the rules in "user_rules.h". 
 
-Examples/descriptions are also provided inside the codes for friendly
+Examples/descriptions are also provided inside the codes for user
 guidance.
 
 The codes are released under the terms of the GNU General Public 
