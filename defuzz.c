@@ -52,7 +52,7 @@ double defuzzify(int type, int res, member_func A)
 	double bin = 0;	
 	int i_row = 0;
 	int i_res = 0;
-	double k[A.num_func][4];			//Gradient
+	double k[A.num_func][4];	//Gradient
 	double x1;
 	double x2;
 	double y;
@@ -61,10 +61,10 @@ double defuzzify(int type, int res, member_func A)
 	double sum_y = 0;
 	int pointer[A.num_func];
 	
-	bin = (double)(A.range[1] - A.range[0])/res;			//Calculate bin	
-	grad_derv(A, k);						//Calculate gradient
+	bin = (double)(A.range[1] - A.range[0])/res;		//Calculate bin	
+	grad_derv(A, k);					//Calculate gradient
 	
-	for (i_row = 0; i_row < A.num_func; i_row++)			//Padding with zero
+	for (i_row = 0; i_row < A.num_func; i_row++)		//Padding with zero
 		pointer[i_row] = 0;
 	
 	for (i_res = 0; i_res < res+1; i_res++)
