@@ -48,14 +48,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 *******************************************************************************/
 double defuzzify(int type, int res, member_func A)
 {
-	double c_value = 0;				//Crisp value
+	double c_value = 0;		//Crisp value
 	double bin = 0;	
 	int i_row = 0;
 	int i_res = 0;
 	double k[A.num_func][4];	//Gradient
-	double x1;
-	double x2;
-	double y;
+	double x1,x2,y;
 	double end_y = 0;
 	double sum_yx = 0;
 	double sum_y = 0;
